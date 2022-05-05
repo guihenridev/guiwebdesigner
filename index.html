@@ -4,27 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="lib/fontawesome/css/all.min.css">
     <title>Guilherme Web Designer</title>
+    <link rel="icon" type="imagem/png" href="img/icon.png" />
 </head>
 <body>
     <header>
         <nav>
-            <img src="img/logo.png" alt="Guilherme Web Designer">
+            <img src="img/logo-web.png" alt="Guilherme Web Designer">
+            
             <ul>
-                <li><a href="#sobre"> Sobre Mim</a></li>
-                <li><a href="#projetos"> Projetos</a></li>
-                <li><a href="#servicos"> Serviços</a></li>
-                <li><a href="#skills"> Minhas Skills</a></li>
-                <li><a href="#contato"> Contato</a></li>
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#skills">Minhas skills</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>
-
         </nav>
-         <h1>
-            Olá, eu sou Guilherme.
-        </h1>
-        <h3> Desenvolvedor Front-end e Designer. </h3>
-        <a href="https://drive.google.com/file/d/1la8aIi08xYNFSikBqLLZP_br1541TdQA/view?usp=sharing" target="_blank"><button class="btn">Download CV</button></a>
-        <a href="https://api.whatsapp.com/send?phone=5511949273345" target="_blank"><button class="btn">Entrar em contato</button></a>
+        <div class="home">
+            <div>
+                <h1>
+                    Olá, eu sou o <br>
+                    Guilherme Henrique.
+                </h1>
+                <p>Desenvolvedor Front-end e Designer.</p>
+                <a href="https://drive.google.com/file/d/1la8aIi08xYNFSikBqLLZP_br1541TdQA/view?usp=sharing" target="_blank"><button class="btn-solid">Download CV</button></a>
+                <a href="https://api.whatsapp.com/send?phone=5511949273345" target="_blank"><button class="btn-transp">Entrar em contato</button></a>
+            </div>
+            <div>
+                <div class="circulo"></div>
+                <img src="img/avatar.webp" alt="Avatar Guilherme">
+            </div>
+        </div>
 
     </header>
     <section class="container">
@@ -32,34 +45,41 @@
             <h1>Sobre Mim</h1>
             <p>
                 Formado em Ciência da Computação e Sistemas de Informação, pela Universidade Carlos Drummond de Andrade, em 2019. Foi quando decidi mudar meu foco para desenvolvimento web. Em desenvolvimento web tenho conhecimento em Front-End: HTML, CSS, Bootstrap,
-                Javascript, JQuery; E em Back-End: PHP. <br> 
+                Javascript <br> 
                 Atuo como designer gráfico e designer digital há mais de 7 anos como freelancer, com conhecimento em Adobe Photoshop, Adobe InDesign, marketing digital, técnicas
-                de SEO e social media.
+                de SEO, UI Design e social media.
             </p>
 
             <div>
                 <ul>
                     <li>
-                        <i class="fas fa-envelope"></i>
-                        <h5>Email</h5>
-                        <a href="mailto:guihenridsilva@gmail.com"><p>guihenridsilva@gmail.com</p></a>
+                        <a href="mailto:guihenridsilva@gmail.com">
+                            <i class="fa-regular fa-envelope"></i>
+                            <h4>Email</h4>
+                            <p>guihenridsilva@gmail.com</p>
+                        </a>
                     </li>
                     <li>
-                        <i class="fab fa-whatsapp"></i></a>
-                        <h5>WhatsApp</h5>
-                        <a href="https://api.whatsapp.com/send?phone=5511949273345" target="_blank"><p>5511949273345</p></a>
+                        <a href="https://www.instagram.com/venettoconsulting" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                            <h4>Instagram</h4>
+                            <p>@guiwebdesigner</p>
+                        </a>
                     </li>
-                    
                     <li>
-                        <i class="fab fa-instagram"></i>
-                        <h5>Instagram</h5>
-                        <a href="https://www.instagram.com/venettoconsulting" target="_blank"><p>@guiwebdesigner</p></a>
+                        <a href="https://api.whatsapp.com/send?phone=5511949273345" target="_blank">
+                            <i class="fab fa-whatsapp"></i>
+                            <h4>WhatsApp</h4>
+                            <p>+55 11 949273345</p>
+                        </a>
                     </li>
-                   
+                                                        
                     <li>
-                        <i class="fab fa-behance"></i>
-                        <h5>Behance</h5>
-                        <a href="https://www.behance.net/guihsilva" target="_blank"><p>behance.net/guihsilva</p></a>
+                        <a href="https://www.behance.net/guihsilva" target="_blank"> 
+                            <i class="fab fa-behance"></i>
+                            <h4>Behance</h4>
+                            <p>behance.net/guihsilva</p>
+                        </a>
                     </li>
                                         
                 </ul>
@@ -67,26 +87,78 @@
         </section>
         
         <section id="projetos">
+            <div class="frontend">
+                <h3>WebSites</h3>
+                   <div class="box-projetos">
+                        <img src="img/site-gislei.jpg" alt="Dra.Gislei">
+                        <h4>Site para Dra. Gislei Cristina</h4>
+                        <a href="https://guihenridev.github.io/gislei/" target="_blank"><button class="btn-transp">Visualizar</button></a>
+                    </div>
+            </div>
+            <div class="design">
+                <h3>Design</h3>
+                    <div class="projetos-row">
+                            <div class="box-projetos">
+                                <a href="https://www.behance.net/gallery/102012439/Posts-Social-Media-Diversos" target="_blank">
+                                <img src="img/socialmedia.jpg" alt="Social Media">
+                                <h4>Social Media</h4>
+                                <p> Visualizar </p><i class="fab fa-behance"></i></a>
+                            </div>
+                            <div class="box-projetos">
+                                <img src="img/logogfarma.jpg" alt="Gfarma">
+                                <h4>Identidade Visual Gfarma</h4>
+                                <a href="https://www.behance.net/gallery/117015549/Identidade-Visual-Gfarma" target="_blank"><p> Visualizar<i class="fab fa-behance"></i> </p></a>
+                            </div>
+                            <div class="box-projetos">
+                                <img src="img/logogislei.jpg" alt="Dra. Gislei Cristina">
+                                <h4>Identidade Visual Dra. Gislei</h4>
+                                <a href="https://www.behance.net/gallery/117012723/Identidade-Visual-Dra-Gislei-Cristina" target="_blank"><p> Visualizar <i class="fab fa-behance"></i></p></a>
+                            </div>
+                            <div class="box-projetos">
+                                <img src="img/logosalinas.jpg" alt="Culinária Salinas">
+                                <h4>Identidade Visual Culinária Salinas</h4>
+                                <a href="https://www.behance.net/gallery/117016453/Identidade-Visual-Salinas" target="_blank"><p> Visualizar <i class="fab fa-behance"></i></p></a>
+                            </div>
+                            <div class="box-projetos">
+                                <img src="img/logobella.jpg" alt="Bella Closet">
+                                <h4>Identidade Visual Bella Closet</h4>
+                                <a href="https://www.behance.net/gallery/117017037/Identidade-Visual-Bella-Closet" target="_blank"><p> Visualizar <i class="fab fa-behance"></i></p></a>
+                            </div>
+                            <div class="box-projetos">
+                                <img src="img/logofosker.jpg" alt="Fosker Store">
+                                <h4>Identidade Visual Fosker Store</h4>
+                                <a href="https://www.behance.net/gallery/117016013/Identidade-Visual-Fosker-Store" target="_blank"><p> Visualizar <i class="fab fa-behance"></i></p></a>
+                            </div>
+                            <div class="box-projetos">
+                                <img src="img/logomayara.jpg" alt="Fosker Store">
+                                <h4>Projeto Mayara Moreno Beauty</h4>
+                                <a href="https://www.behance.net/gallery/132504621/Projeto-Mayara-Moreno-Beauty" target="_blank"><p> Visualizar <i class="fab fa-behance"></i></p></a>
+                            </div>
+                    </div>
+            </div>
             
         </section>
     
         <section id="servicos">
-            <div>
-                <h3>Desenvolvimento Web</h3>
-                <p>
-                    Desenvolvimento de sites profissionais, blogs, portfólios e landing pages focado em resultados, Criação de sites responsivos para a melhor visualização em dispositivos móveis com qualidade em todas as telas.
-                </p>
-            </div>
-            <div>
-                <h3>Design</h3>
-                <p>
-                    Realização da comunicação visual impressa como panfletos, flyers banners, cartões de visita, e também criação de comunicação visual digital como email marketing, campanhas, artes para posts, layout para sites.
-                </p>
-            </div>
-            <div>
-                <h3>Social Media</h3>
-                <p>
-                    Planejamento de público, audiência, engajamento, conteúdo, estilo, e outros prontos importantes para que o perfil da sua empresa nas redes sociais esteja totalmente em sintonia com os objetivos do seu negócio e público. </p>
+            <h1>Serviços</h1>
+            <div class="container-servico">
+                <div>
+                    <h3>Desenvolvimento Web</h3>
+                    <p>
+                        Desenvolvimento de sites profissionais, blogs, portfólios e landing pages focado em resultados, Criação de sites responsivos para a melhor visualização em dispositivos móveis com qualidade em todas as telas.
+                    </p>
+                </div>
+                <div>
+                    <h3>Design</h3>
+                    <p>
+                        Realização da comunicação visual impressa como panfletos, flyers banners, cartões de visita, e também criação de comunicação visual digital como email marketing, campanhas, artes para posts, layout para sites.
+                    </p>
+                </div>
+                <div>
+                    <h3>Social Media</h3>
+                    <p>
+                        Planejamento de público, audiência, engajamento, conteúdo, estilo, e outros prontos importantes para que o perfil da sua empresa nas redes sociais esteja totalmente em sintonia com os objetivos do seu negócio e público. </p>
+                </div>
             </div>
         </div>
             
@@ -104,6 +176,6 @@
             
         </section>
     </section>
-    
+    <script src="lib/fontawesome/js/all.min.js"></script>
 </body>
 </html>
