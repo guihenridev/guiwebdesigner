@@ -33,6 +33,7 @@ p{
 header{
     margin-bottom: 150px;
 }
+
 nav{
     display: flex;
     flex-direction: row;
@@ -62,6 +63,41 @@ nav ul li a:hover {
 nav img{
     max-width: auto;
     max-height: 90px;
+}
+#menu-vidro{
+    position: fixed;
+    bottom: 20px;
+    left: 38%;
+    background: rgba( 255, 255, 255, 0.05 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 3px );
+    -webkit-backdrop-filter: blur( 3px );
+    border-radius: 10px;
+
+}
+#menu-vidro ul{
+    padding: 0;
+    margin-left: 30px;
+}
+#menu-vidro ul li{
+    display: inline-block;
+    margin-right: 30px;
+    
+}
+#menu-vidro ul li a{
+    font-size: 1.5em;
+    color: #F9F9F9;
+}
+#menu-vidro ul li a:hover{
+    color: #5881FF;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.active{
+    display: none;
+    
 }
 header button{
     font-size: 1em;
@@ -102,10 +138,9 @@ header button{
 }
 .home img{
     max-width: 300px;
-    max-height: auto;
-    border-radius: 50%;
+   
 }
-.circulo{
+/*.circulo{
     width: 270px;
     height: 250px;
     position: absolute;
@@ -114,7 +149,7 @@ header button{
     border-radius: 50%;
     background-color: #5881FF;
     z-index: -1;
-}
+}*/
 
 h1{
     font-size: 2em;
@@ -125,7 +160,7 @@ h1{
 }
 #sobre p{
     font-size: 1.2em;
-    padding: 0 15%;
+    padding: 0 14%;
     justify-content: center;
     margin-bottom: 100px;
     
@@ -143,6 +178,14 @@ h1{
     border-radius: 50%;
     padding: 15px;
 }
+#sobre ul li svg:hover{
+    background-color:#F9F9F9;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+
+}
 #sobre ul li p{
     margin-top: -14px;
     font-size: 0.9em;
@@ -150,34 +193,123 @@ h1{
 }
 .box-projetos{
     background-color: #333;
-    height: auto;
-    flex-basis: calc(33% - 20px);
-    padding: 10%;
+    width: 230px;
+    height: inherit;
     margin-bottom: 50px;
+    
+}
+.frontend p{
+    font-size: 0.8em;
+}
+.box-projetos-content{
+    margin: 10px 40px;
+}
+.box-projetos:hover{
+    border-bottom: #5881FF solid 3px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+
+}
+.box-projetos h4{
+    width: 150px;
+    margin: 0;
+}
+.box-projetos p{
+    margin-top: 0px;
 }
 #projetos img{
-    max-width: 200px;
-    max-height: 200px;
+    max-width: 150px;
+    max-height: 150px;
     width: auto;
     height: auto;
     padding-top: 15px;
 }
+.projetos-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: inherit;
+    
+}
 #servicos h1{
     text-align: center;
+}
+#servicos svg{
+    font-size: 3em;
+    color: #5881FF;
 }
 .container-servico{
     display: flex;
 }
 .container-servico div{
     background-color: #333;
-    margin-left: 30px;
+    margin-right: 30px;
     padding: 10px 30px;
     border-bottom: #5881FF solid 5px;
 }
-.projetos-row{
+#skills{
     display: flex;
-    flex-wrap: wrap;
-    height: inherit;
-    justify-content: space-around;
-    align-content: space-evenly;
+    justify-content: space-between;
+    
+    align-content: space-between;
+}
+#skills h1{
+    margin-top: 60px;
+}
+.skills-content {
+    padding-top: 100px;
+    text-align: center;
+}
+.skills-content div{
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+.skills-content div:hover{
+    border-bottom: #5881FF solid 3px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    
+}
+.skills-content svg{
+    font-size: 100px;
+    color: #5881FF;
+}
+.skills-content img{
+    max-width: 100px;
+}
+.descricao:first{
+    color:#F9F9F9;
+    font-size: 1.2em;
+}
+.descricao{
+    display: none;
+    
+}
+.desc{
+    width: 300px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+}
+footer img{
+    max-height: 70px;
+}
+footer ul li{
+    display: inline-block;
+    margin-right: 50px;
+}
+footer ul li a{
+    font-size: 2em;
+}
+footer ul li a:hover{
+    color: #5881FF;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
 }

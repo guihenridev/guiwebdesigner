@@ -12,17 +12,26 @@
 </head>
 <body>
     <header>
-        <nav>
-            <img src="img/logo-web.png" alt="Guilherme Web Designer">
-            
-            <ul>
-                <li><a href="#sobre">Sobre Mim</a></li>
-                <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#servicos">Serviços</a></li>
-                <li><a href="#skills">Minhas skills</a></li>
-                <li><a href="#contato">Contato</a></li>
+            <nav>
+                <img src="img/logo-web.png" alt="Guilherme Web Designer">
+                
+                <ul>
+                    <li><a href="#sobre">Sobre Mim</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#skills">Minhas skills</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+            <div id="menu-vidro" class="active">
+            <ul>                
+                <li><a href="#sobre"><i class="fa-solid fa-user"></i></a></li>
+                <li><a href="#projetos"><i class="fa-solid fa-laptop-code"></i></a></li>
+                <li><a href="#servicos"><i class="fa-solid fa-code"></i></a></li>
+                <li><a href="#skills"><i class="fa-solid fa-code-branch"></i></a></li>
+                <li><a href="#contato"><i class="fa-solid fa-phone"></i></a></li>
             </ul>
-        </nav>
+            </div>
         <div class="home">
             <div>
                 <h1>
@@ -35,7 +44,7 @@
             </div>
             <div>
                 <div class="circulo"></div>
-                <img src="img/avatar.webp" alt="Avatar Guilherme">
+                <img src="img/avatar.png" alt="Avatar Guilherme">
             </div>
         </div>
 
@@ -89,50 +98,75 @@
         <section id="projetos">
             <div class="frontend">
                 <h3>WebSites</h3>
+                <div class="projetos-grid">
                    <div class="box-projetos">
-                        <img src="img/site-gislei.jpg" alt="Dra.Gislei">
-                        <h4>Site para Dra. Gislei Cristina</h4>
-                        <a href="https://guihenridev.github.io/gislei/" target="_blank"><button class="btn-transp">Visualizar</button></a>
+                       <div class="box-projetos-content">
+                        <a href="https://guihenridev.github.io/gislei/" target="_blank">
+                            <img src="img/site-gislei.jpg" alt="Dra.Gislei">
+                            <h4>Site para Dra. Gislei Cristina</h4>
+                           <p>Tecnologias: Html, Css, Bootstrap, Javascript, jQuery.</p></a>
+                        </div> 
                     </div>
+                </div>
             </div>
             <div class="design">
                 <h3>Design</h3>
-                    <div class="projetos-row">
+                    <div class="projetos-grid">
                             <div class="box-projetos">
-                                <a href="https://www.behance.net/gallery/102012439/Posts-Social-Media-Diversos" target="_blank">
-                                <img src="img/socialmedia.jpg" alt="Social Media">
-                                <h4>Social Media</h4>
-                                <p> Visualizar </p><i class="fab fa-behance"></i></a>
+                                <div class="box-projetos-content">
+                                    <a href="https://www.behance.net/gallery/102012439/Posts-Social-Media-Diversos" target="_blank">
+                                    <img src="img/socialmedia.jpg" alt="Social Media">
+                                    <h4>Social Media</h4>
+                                    <p>Visualizar <i class="fab fa-behance"></i></p></a>
+                                </div>
                             </div>
                             <div class="box-projetos">
-                                <img src="img/logogfarma.jpg" alt="Gfarma">
-                                <h4>Identidade Visual Gfarma</h4>
-                                <a href="https://www.behance.net/gallery/117015549/Identidade-Visual-Gfarma" target="_blank"><p> Visualizar<i class="fab fa-behance"></i> </p></a>
+                                <div class="box-projetos-content">
+                                    <a href="https://www.behance.net/gallery/117015549/Identidade-Visual-Gfarma" target="_blank">
+                                    <img src="img/logogfarma.jpg" alt="Gfarma">
+                                    <h4>Identidade Visual Gfarma</h4>
+                                    <p>Visualizar <i class="fab fa-behance"></i> </p></a>
+                                </div>        
                             </div>
                             <div class="box-projetos">
-                                <img src="img/logogislei.jpg" alt="Dra. Gislei Cristina">
-                                <h4>Identidade Visual Dra. Gislei</h4>
-                                <a href="https://www.behance.net/gallery/117012723/Identidade-Visual-Dra-Gislei-Cristina" target="_blank"><p> Visualizar <i class="fab fa-behance"></i></p></a>
+                                <div class="box-projetos-content">
+                                    <a href="https://www.behance.net/gallery/117012723/Identidade-Visual-Dra-Gislei-Cristina" target="_blank">
+                                    <img src="img/logogislei.jpg" alt="Dra. Gislei Cristina">
+                                    <h4>Identidade Visual Dra. Gislei</h4>
+                                    <p>Visualizar <i class="fab fa-behance"></i></p></a>
+                                </div>
                             </div>
                             <div class="box-projetos">
-                                <img src="img/logosalinas.jpg" alt="Culinária Salinas">
-                                <h4>Identidade Visual Culinária Salinas</h4>
-                                <a href="https://www.behance.net/gallery/117016453/Identidade-Visual-Salinas" target="_blank"><p> Visualizar <i class="fab fa-behance"></i></p></a>
+                                <div class="box-projetos-content">
+                                    <a href="https://www.behance.net/gallery/117016453/Identidade-Visual-Salinas" target="_blank">
+                                    <img src="img/logosalinas.jpg" alt="Culinária Salinas">
+                                    <h4>Identidade Visual Culinária Salinas</h4>
+                                    <p>Visualizar <i class="fab fa-behance"></i></p></a>
+                                </div>
                             </div>
                             <div class="box-projetos">
-                                <img src="img/logobella.jpg" alt="Bella Closet">
-                                <h4>Identidade Visual Bella Closet</h4>
-                                <a href="https://www.behance.net/gallery/117017037/Identidade-Visual-Bella-Closet" target="_blank"><p> Visualizar <i class="fab fa-behance"></i></p></a>
+                                <div class="box-projetos-content">
+                                    <a href="https://www.behance.net/gallery/117017037/Identidade-Visual-Bella-Closet" target="_blank">
+                                    <img src="img/logobella.jpg" alt="Bella Closet">
+                                    <h4>Identidade Visual Bella Closet</h4>
+                                    <p>Visualizar <i class="fab fa-behance"></i></p></a>
+                                </div>
                             </div>
                             <div class="box-projetos">
-                                <img src="img/logofosker.jpg" alt="Fosker Store">
-                                <h4>Identidade Visual Fosker Store</h4>
-                                <a href="https://www.behance.net/gallery/117016013/Identidade-Visual-Fosker-Store" target="_blank"><p> Visualizar <i class="fab fa-behance"></i></p></a>
+                                <div class="box-projetos-content">
+                                    <a href="https://www.behance.net/gallery/117016013/Identidade-Visual-Fosker-Store" target="_blank">
+                                    <img src="img/logofosker.jpg" alt="Fosker Store">
+                                    <h4>Identidade Visual Fosker Store</h4>
+                                    <p>Visualizar <i class="fab fa-behance"></i></p></a>
+                                </div>
                             </div>
                             <div class="box-projetos">
-                                <img src="img/logomayara.jpg" alt="Fosker Store">
-                                <h4>Projeto Mayara Moreno Beauty</h4>
-                                <a href="https://www.behance.net/gallery/132504621/Projeto-Mayara-Moreno-Beauty" target="_blank"><p> Visualizar <i class="fab fa-behance"></i></p></a>
+                                <div class="box-projetos-content">
+                                    <a href="https://www.behance.net/gallery/132504621/Projeto-Mayara-Moreno-Beauty" target="_blank">
+                                    <img src="img/logomayara.jpg" alt="Fosker Store">
+                                    <h4>Projeto Mayara Moreno Beauty</h4>
+                                    <p> Visualizar <i class="fab fa-behance"></i></p></a>
+                                </div>
                             </div>
                     </div>
             </div>
@@ -143,18 +177,21 @@
             <h1>Serviços</h1>
             <div class="container-servico">
                 <div>
+                    <i class="fa-solid fa-code"></i>
                     <h3>Desenvolvimento Web</h3>
                     <p>
                         Desenvolvimento de sites profissionais, blogs, portfólios e landing pages focado em resultados, Criação de sites responsivos para a melhor visualização em dispositivos móveis com qualidade em todas as telas.
                     </p>
                 </div>
                 <div>
+                    <i class="fa-solid fa-compass-drafting"></i>
                     <h3>Design</h3>
                     <p>
                         Realização da comunicação visual impressa como panfletos, flyers banners, cartões de visita, e também criação de comunicação visual digital como email marketing, campanhas, artes para posts, layout para sites.
                     </p>
                 </div>
                 <div>
+                    <i class="fa-solid fa-mobile-screen-button"></i>
                     <h3>Social Media</h3>
                     <p>
                         Planejamento de público, audiência, engajamento, conteúdo, estilo, e outros prontos importantes para que o perfil da sua empresa nas redes sociais esteja totalmente em sintonia com os objetivos do seu negócio e público. </p>
@@ -165,17 +202,73 @@
         </section>
         <section id="skills">
             <div>
+                <h1>Minhas skills</h1>
+                <div class="desc">
+                <p id="descricao0" class="descricao">Passe o mouse para ver mais.</p>
+                <p id="descricao1" class="descricao">HTML é uma linguagem baseada em marcação, onde marcamos os elementos para definir quais informações a página vai exibir.</p>
+                <p id="descricao2" class="descricao">
+                    Css é uma linguagem de folha de estilo composta por "camadas", criado com o propósito de estilizar as páginas HTML.
+                </p>
+                <p id="descricao3" class="descricao">
+                    JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma.
+                </p>
+                <p id="descricao4" class="descricao">
+                    O Git é um repositório de controle de versão de arquivos, utilizado para controlar versões de códigos-fonte e desenvolvimento colaborativo.
+                </p>
+                <p id="descricao5" class="descricao">
+                    Adobe Photoshop é um software caracterizado como editor de imagens. Usado para edição profissional de imagens digitais e trabalhos de pré-impressão.
+                </p>
                 
             </div>
-            <div>
-
+            </div>
+            <div class="projetos-grid skills-content">
+                    <div onmouseover="mudar(1)" onmouseout="mudar(0)"><i class="fab fa-html5"></i>
+                        <p>HTML5</p>
+                    </div>
+                    <div onmouseover="mudar(2)" onmouseout="mudar(0)"><i class="fab fa-css3-alt"></i>
+                        <p>CSS3</p>
+                    </div>
+                    <div onmouseover="mudar(3)" onmouseout="mudar(0)"><i class="fab fa-js"></i>
+                        <p>JavaScript</p>
+                    </div>
+                    <div onmouseover="mudar(4)" onmouseout="mudar(0)"><i class="fab fa-git-square">
+                    </i>
+                    <p>Git</p>
+                </div>
+                    <div onmouseover="mudar(5)" onmouseout="mudar(0)"><img src="img/photoshop-logo.png" alt="Photoshop">
+                        <p>Adobe Photoshop</p>
+                    </div>
+                    
+                
             </div>
         </section>
     
-        <section id="contato">
-            
-        </section>
+        
     </section>
+    <footer id="contato" class="container">
+        <div>
+            <a href="#"> <img src="img/logo-web.png" alt="Guilherme"></a>
+        </div>
+        <div>
+            <ul>
+                <li>
+                    <a href="https://api.whatsapp.com/send?phone=5511949273345" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/venettoconsulting" target="_blank"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/guilherme-henrique-b39a85aa/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.behance.net/guihsilva" target="_blank"><i class="fab fa-behance"></i></a>
+                </li>
+            </ul>
+        </div>
+            
+    </footer>
     <script src="lib/fontawesome/js/all.min.js"></script>
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
