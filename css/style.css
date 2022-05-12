@@ -316,3 +316,6 @@ footer ul li a:hover{
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
+.h1resp{
+    display: none;
+}
