@@ -26,6 +26,7 @@ section button{
     margin-bottom: 1em;
 }
 footer{
+    margin-top: 80px;
     justify-content: center;
     height: auto;
 }
