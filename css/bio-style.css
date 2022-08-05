@@ -1,11 +1,12 @@
 header{
+    margin-top: 5%;
     margin-bottom: 0;
 }
 img{
     max-width: auto;
-    max-height: 90px;
+    max-height: 100px;
 }
-h1{
+h3{
     color: #828282;
 }
 header, section{
@@ -24,4 +25,7 @@ section button{
     margin-left: 0;
     margin-bottom: 1em;
 }
-
+footer{
+    justify-content: center;
+    height: auto;
+}
