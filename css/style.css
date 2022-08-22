@@ -28,7 +28,7 @@ p{
     color:#828282;
 }
 .container, header{
-    padding: 0 2rem;
+    padding: 0 4rem;
 }
 header{
     margin-bottom: 150px;
@@ -97,10 +97,15 @@ nav img{
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
+#menu-v{
+    display: flex; 
+    justify-content: center;
+}
 .active{
-    display: none;
+    display: none!important;
     
 }
+
 header button{
     font-size: 1em;
     border-radius: 0;

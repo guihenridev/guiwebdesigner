@@ -4,9 +4,9 @@ $(document).ready(function() {
         var yOffset = window.pageYOffset;
         var breakpoint = 80;
         if (yOffset > breakpoint) {
-            $("#menu-vidro").removeClass('active');
+            $("#menu-v").removeClass('active');
         } else {
-            $("#menu-vidro").addClass('active');
+            $("#menu-v").addClass('active');
         }
 
     });
