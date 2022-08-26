@@ -23,6 +23,7 @@ a{
 
 h1, h3, h4{
     color:#F9F9F9;
+    margin-bottom: 1.3rem;
 }
 p{
     color:#828282;
@@ -183,6 +184,9 @@ h1{
 #sobre{
     text-align: center;
 }
+#sobre h4{
+    margin: 0;
+}
 #sobre p{
     font-size: 1.2em;
     padding: 0 14%;
@@ -215,6 +219,7 @@ h1{
     font-size: 0.9em;
     padding: 0;
 }
+
 .box-projetos{
     background-color: #333;
     width: 230px;

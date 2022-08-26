@@ -22,6 +22,9 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+    #projetos h3{
+        text-align: center;
+    }
     .container-servico {
         display: block;
         
@@ -55,6 +58,11 @@
 
     #sobre p {
         font-size: 1em;
+        text-align: justify;
+        padding: 0;
+    }
+    #sobre ul li p {
+        text-align:center;
     }
     .desc{
         display: none;
