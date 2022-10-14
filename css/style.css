@@ -32,7 +32,7 @@ p{
     padding: 0 4rem;
 }
 header{
-    margin-bottom: 150px;
+    height: 40rem;
 }
 
 nav{
@@ -76,6 +76,7 @@ nav img{
     height: 60px;
     display: flex;
     align-items: center;
+    z-index: 5000;
 
 }
 #menu-vidro ul{
@@ -104,6 +105,7 @@ nav img{
 }
 .active{
     display: none!important;
+    opacity: 0;
     
 }
 
@@ -315,10 +317,11 @@ h1{
 .descricao:first{
     color:#F9F9F9;
     font-size: 1.2em;
+    opacity: 1;
 }
 .descricao{
     display: none;
-    
+    transition: 0.3s ease;
 }
 .desc{
     width: 300px;
@@ -347,4 +350,34 @@ footer ul li a:hover{
 }
 .h1resp{
     display: none;
+}
+
+
+/*---------------------------------------
+   Animação        
+
+
+[data-anime]{
+    opacity: 0;
+    transition: .4s;
+}
+[data-anime="up"]{
+    transform: translate3d(0, 50px, -1);
+    transform: translateY(50px);
+}
+[data-anime="right"]{
+    transform: translate3d(-50px, 0, -1);
+    transform: translateX(-50px);
+}
+
+[data-anime].animate{
+    opacity: 1;
+    transform: translate(0, 0)
+}
+-----------------------------------------*/
+.intervalCardReveal{
+    visibility: hidden;
+}
+.sobreReveal{
+    visibility: hidden;
 }

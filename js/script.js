@@ -29,3 +29,53 @@ function mudar(val) {
   typeWriter(titulo);
   const subtitulo = document.getElementById('type-sub');
   setTimeout(() => typeWriter(subtitulo), 1500);
+
+
+window.sr = ScrollReveal({ reset: true });
+sr.reveal('.intervalCardReveal', {duration:1500, interval: 300, origin: "top",
+distance: "50px"});
+
+sr.reveal('.sobreReveal', {duration: 1500})
+sr.reveal('.titleReveal', {duration: 2000, origin:"left", distance:"60px"});
+
+
+/*
+  
+  const debounce = function(func, wait, immediate) {
+    let timeout;
+    return function(...args) {
+      const context = this;
+      const later = function () {
+        timeout = null;
+        if (!immediate) func.apply(context, args);
+      };
+      const callNow = immediate && !timeout;
+      clearTimeout(timeout);
+      timeout = setTimeout(later, wait);
+      if (callNow) func.apply(context, args);
+    };
+  };
+  
+  
+  const target = document.querySelectorAll('[data-anime]');
+  const animationClass ='animate';
+
+  function animeScroll(){
+    const windowTop= window.pageYOffset + ((window.innerHeight * 3) / 4);
+
+    target.forEach(function(element) {
+      if ((windowTop) > element.offsetTop) {
+        element.classList.add(animationClass);        
+      } else
+        element.classList.remove(animationClass); 
+    });
+  }
+
+animeScroll();
+  if(target.length){
+    window.addEventListener('scroll', debounce(function(){
+      animeScroll();
+    }, 200));
+  }*/
+  
+  

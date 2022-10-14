@@ -30,6 +30,8 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/style-reponsivo.css">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="./js/scrollReveal.js"></script>
     <link rel="stylesheet" href="lib/fontawesome/css/all.min.css">
     <title>Guilherme Web Designer</title>
     <link rel="icon" type="imagem/png" href="img/icon.png" />
@@ -77,8 +79,8 @@
     </header>
     <section class="container">
         <section id="sobre">
-            <h1>Sobre Mim</h1>
-            <p>
+            <h1 class="sobreReveal">Sobre Mim</h1>
+            <p class="sobreReveal">
                 Formado em Ciência da Computação e Sistemas de Informação, pela Universidade Carlos Drummond de Andrade, em 2019. Foi quando decidi mudar meu foco para desenvolvimento web. Em desenvolvimento web tenho conhecimento em Front-End: HTML, CSS, Bootstrap,
                 Javascript <br> <br> 
 
@@ -88,21 +90,21 @@
 
             <div>
                 <ul>
-                    <li>
+                    <li class="intervalCardReveal">
                         <a href="mailto:guihenridsilva@gmail.com">
                             <i class="fa-regular fa-envelope"></i>
                             <h4>Email</h4>
                             <p>guihenridsilva@gmail.com</p>
                         </a>
                     </li>
-                    <li>
+                    <li class="intervalCardReveal">
                         <a href="https://www.instagram.com/guiwebdesigner" target="_blank">
                             <i class="fab fa-instagram"></i>
                             <h4>Instagram</h4>
                             <p>@guiwebdesigner</p>
                         </a>
                     </li>
-                    <li>
+                    <li class="intervalCardReveal">
                         <a href="https://api.whatsapp.com/send?phone=5511949273345" target="_blank">
                             <i class="fab fa-whatsapp"></i>
                             <h4>WhatsApp</h4>
@@ -110,7 +112,7 @@
                         </a>
                     </li>
                                                         
-                    <li>
+                    <li class="intervalCardReveal">
                         <a href="https://www.behance.net/guihsilva" target="_blank"> 
                             <i class="fab fa-behance"></i>
                             <h4>Behance</h4>
@@ -124,14 +126,14 @@
         
         <section id="projetos">
             <div class="frontend">
-                <h3>WebSites</h3>
-                <div class="projetos-grid">
+                <h3 class="titleReveal">WebSites</h3>
+                <div class="projetos-grid intervalCardReveal" >
                    <div class="box-projetos">
                        <div class="box-projetos-content">
-                        <a href="https://guihenridev.github.io/gislei/" target="_blank">
+                        <a href="http://dragisleicristina.com.br/" target="_blank">
                             <img src="img/site-gislei.webp" alt="Dra.Gislei">
                             <h4>Site para Dra. Gislei Cristina</h4>
-                           <p>Tecnologias: Html, Css, Bootstrap, Javascript, jQuery.</p></a>
+                           <p>Tecnologias: Html, Css, Javascript, jQuery.</p></a>
                         </div> 
                     </div>
                     <!--<div class="box-projetos">
@@ -142,7 +144,7 @@
                             <p>Tecnologias: Html, Css, Bootstrap, Javascript, jQuery.</p></a>
                          </div> 
                      </div>-->
-                     <div class="box-projetos">
+                     <div class="box-projetos intervalCardReveal">
                         <div class="box-projetos-content">
                          <a href="https://guihenridev.github.io/nazareno-itaquera/" target="_blank">
                              <img src="img/site-nazareno-itaquera.webp" alt="Nazareno Itaquera">
@@ -150,36 +152,36 @@
                             <p>Tecnologias: Html, Css, Bootstrap, Javascript</p></a>
                          </div> 
                      </div>
-                     <div class="box-projetos">
+                     <div class="box-projetos intervalCardReveal">
                         <div class="box-projetos-content">
                          <a href="https://guihenridev.github.io/rachi/" target="_blank">
                              <img src="img/site-rachi.webp" alt="Rachi">
-                             <h4>Site de Treinamento Rachi</h4>
+                             <h4>Site de Estudo Rachi</h4>
                             <p>Tecnologias: Html, Css, Javascript</p></a>
                          </div> 
                      </div>
-                     <div class="box-projetos">
+                     <div class="box-projetos intervalCardReveal">
                         <div class="box-projetos-content">
                          <a href="https://guihenridev.github.io/foodjp/" target="_blank">
                              <img src="img/site-foodjp.webp" alt="FoodJp">
-                             <h4>Site de Treinamento FoodJP</h4>
+                             <h4>Site de Estudo FoodJP</h4>
                             <p>Tecnologias: Html, Css, Javascript</p></a>
                          </div> 
                      </div>
-                     <div class="box-projetos">
+                     <div class="box-projetos intervalCardReveal">
                         <div class="box-projetos-content">
                          <a href="https://guihenridev.github.io/homeyou/" target="_blank">
                              <img src="img/site-homeyou.webp" alt="HomeYou">
-                             <h4>Site de Treinamento HomeYou</h4>
+                             <h4>Site de Estudo HomeYou</h4>
                             <p>Tecnologias: Html, Css, Javascript</p></a>
                          </div> 
                      </div>
                 </div>
             </div>
             <div class="design">
-                <h3>Design</h3>
+                <h3 class="titleReveal">Design</h3>
                     <div class="projetos-grid">
-                            <div class="box-projetos">
+                            <div class="box-projetos intervalCardReveal">
                                 <div class="box-projetos-content">
                                     <a href="https://www.behance.net/gallery/102012439/Posts-Social-Media-Diversos" target="_blank">
                                     <img src="img/socialmedia.webp" alt="Social Media">
@@ -187,7 +189,7 @@
                                     <p>Visualizar <i class="fab fa-behance"></i></p></a>
                                 </div>
                             </div>
-                            <div class="box-projetos">
+                            <div class="box-projetos intervalCardReveal">
                                 <div class="box-projetos-content">
                                     <a href="https://www.behance.net/gallery/117015549/Identidade-Visual-Gfarma" target="_blank">
                                     <img src="img/logogfarma.webp" alt="Gfarma">
@@ -195,7 +197,7 @@
                                     <p>Visualizar <i class="fab fa-behance"></i> </p></a>
                                 </div>        
                             </div>
-                            <div class="box-projetos">
+                            <div class="box-projetos intervalCardReveal">
                                 <div class="box-projetos-content">
                                     <a href="https://www.behance.net/gallery/117012723/Identidade-Visual-Dra-Gislei-Cristina" target="_blank">
                                     <img src="img/logogislei.webp" alt="Dra. Gislei Cristina">
@@ -203,7 +205,7 @@
                                     <p>Visualizar <i class="fab fa-behance"></i></p></a>
                                 </div>
                             </div>
-                            <div class="box-projetos">
+                            <div class="box-projetos intervalCardReveal">
                                 <div class="box-projetos-content">
                                     <a href="https://www.behance.net/gallery/117016453/Identidade-Visual-Salinas" target="_blank">
                                     <img src="img/logosalinas.webp" alt="Culinária Salinas">
@@ -211,7 +213,7 @@
                                     <p>Visualizar <i class="fab fa-behance"></i></p></a>
                                 </div>
                             </div>
-                            <div class="box-projetos">
+                            <div class="box-projetos intervalCardReveal">
                                 <div class="box-projetos-content">
                                     <a href="https://www.behance.net/gallery/117017037/Identidade-Visual-Bella-Closet" target="_blank">
                                     <img src="img/logobella.webp" alt="Bella Closet">
@@ -219,7 +221,7 @@
                                     <p>Visualizar <i class="fab fa-behance"></i></p></a>
                                 </div>
                             </div>
-                            <div class="box-projetos">
+                            <div class="box-projetos intervalCardReveal">
                                 <div class="box-projetos-content">
                                     <a href="https://www.behance.net/gallery/117016013/Identidade-Visual-Fosker-Store" target="_blank">
                                     <img src="img/logofosker.webp" alt="Fosker Store">
@@ -227,7 +229,7 @@
                                     <p>Visualizar <i class="fab fa-behance"></i></p></a>
                                 </div>
                             </div>
-                            <div class="box-projetos">
+                            <div class="box-projetos intervalCardReveal">
                                 <div class="box-projetos-content">
                                     <a href="https://www.behance.net/gallery/132504621/Projeto-Mayara-Moreno-Beauty" target="_blank">
                                     <img src="img/logomayara.webp" alt="Mayara Moreno">
@@ -241,23 +243,23 @@
         </section>
     
         <section id="servicos">
-            <h1>Serviços</h1>
+            <h1 class="titleReveal">Serviços</h1>
             <div class="container-servico">
-                <div>
+                <div class="intervalCardReveal">
                     <i class="fa-solid fa-code"></i>
                     <h3>Desenvolvimento Web</h3>
                     <p>
                         Desenvolvimento de sites profissionais, blogs, portfólios e landing pages focado em resultados, Criação de sites responsivos para a melhor visualização em dispositivos móveis com qualidade em todas as telas.
                     </p>
                 </div>
-                <div>
+                <div class="intervalCardReveal">
                     <i class="fa-solid fa-compass-drafting"></i>
                     <h3>Design</h3>
                     <p>
                         Realização da comunicação visual impressa como panfletos, flyers banners, cartões de visita, e também criação de comunicação visual digital como email marketing, campanhas, artes para posts, layout para sites.
                     </p>
                 </div>
-                <div>
+                <div class="intervalCardReveal">
                     <i class="fa-solid fa-mobile-screen-button"></i>
                     <h3>Social Media</h3>
                     <p>
@@ -269,7 +271,7 @@
         </section>
         <section id="skills">
             <div>
-                <h1>Minhas skills</h1>
+                <h1 class="titleReveal">Minhas skills</h1>
                 <div class="desc">
                 <p id="descricao0" class="descricao">Passe o mouse para ver mais.</p>
                 <p id="descricao1" class="descricao">HTML é uma linguagem baseada em marcação, onde marcamos os elementos para definir quais informações a página vai exibir.</p>
@@ -292,22 +294,22 @@
             </div>
             </div>
             <div class="projetos-grid skills-content">
-                    <div onmouseover="mudar(1)" onmouseout="mudar(0)"><i class="fab fa-html5"></i>
+                    <div onmouseover="mudar(1)" onmouseout="mudar(0)" class="intervalCardReveal"><i class="fab fa-html5"></i>
                         <p>HTML5</p>
                     </div>
-                    <div onmouseover="mudar(2)" onmouseout="mudar(0)"><i class="fab fa-css3-alt"></i>
+                    <div onmouseover="mudar(2)" onmouseout="mudar(0)" class="intervalCardReveal"><i class="fab fa-css3-alt"></i>
                         <p>CSS3</p>
                     </div>
-                    <div onmouseover="mudar(3)" onmouseout="mudar(0)"><i class="fab fa-js"></i>
+                    <div onmouseover="mudar(3)" onmouseout="mudar(0)" class="intervalCardReveal"><i class="fab fa-js"></i>
                         <p>JavaScript</p>
                     </div>
-                    <div onmouseover="mudar(4)" onmouseout="mudar(0)"><i class="fab fa-git-square"></i>
+                    <div onmouseover="mudar(4)" onmouseout="mudar(0)" class="intervalCardReveal"><i class="fab fa-git-square"></i>
                         <p>Git</p>
                     </div>
-                    <div onmouseover="mudar(5)" onmouseout="mudar(0)"><i class="fa-brands fa-bootstrap"></i>
+                    <div onmouseover="mudar(5)" onmouseout="mudar(0)" class="intervalCardReveal"><i class="fa-brands fa-bootstrap"></i>
                         <p>Bootstrap</p>
                     </div>
-                    <div onmouseover="mudar(6)" onmouseout="mudar(0)"><img src="img/photoshop-logo.png" alt="Photoshop">
+                    <div onmouseover="mudar(6)" onmouseout="mudar(0)" class="intervalCardReveal"><img src="img/photoshop-logo.png" alt="Photoshop">
                         <p>Adobe Photoshop</p>
                     </div>
             </div>
@@ -316,21 +318,21 @@
         
     </section>
     <footer id="contato" class="container">
-        <div>
+        <div class="sobreReveal">
             <a href="#"> <img src="img/logo-web.png" alt="Guilherme"></a>
         </div>
         <div>
             <ul>
-                <li>
+                <li class="intervalCardReveal">
                     <a href="https://api.whatsapp.com/send?phone=5511949273345" target="_blank"><i class="fab fa-whatsapp"></i></a>
                 </li>
-                <li>
+                <li class="intervalCardReveal">
                     <a href="https://www.instagram.com/guiwebdesigner" target="_blank"><i class="fab fa-instagram"></i></a>
                 </li>
-                <li>
+                <li class="intervalCardReveal">
                     <a href="https://www.linkedin.com/in/guilherme-henrique-b39a85aa/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                 </li>
-                <li>
+                <li class="intervalCardReveal">
                     <a href="https://www.behance.net/guihsilva" target="_blank"><i class="fab fa-behance"></i></a>
                 </li>
             </ul>
