@@ -31,12 +31,15 @@ function mudar(val) {
   setTimeout(() => typeWriter(subtitulo), 1500);
 
 
-window.sr = ScrollReveal({ reset: true });
-sr.reveal('.intervalCardReveal', {duration:1500, interval: 300, origin: "top",
-distance: "50px"});
+window.sr = ScrollReveal({ reset: false });
+sr.reveal('.intervalCardReveal', {
+  duration:1500, 
+  interval: 300, 
+  origin: "top",
+  distance: "50px"});
 
 sr.reveal('.sobreReveal', {duration: 1500})
-sr.reveal('.titleReveal', {duration: 2000, origin:"left", distance:"60px"});
+sr.reveal('.titleReveal', {duration: 2000, origin:"top", distance:"60px"});
 
 
 /*
