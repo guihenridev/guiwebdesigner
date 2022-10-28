@@ -31,7 +31,7 @@ function mudar(val) {
   setTimeout(() => typeWriter(subtitulo), 1500);
 
 
-window.sr = ScrollReveal({ reset: false });
+window.sr = ScrollReveal();
 sr.reveal('.intervalCardReveal', {
   duration:1500, 
   interval: 300, 
