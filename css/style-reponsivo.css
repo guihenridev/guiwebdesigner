@@ -2,8 +2,24 @@
     .projetos-grid {
         grid-template-columns: 1fr 1fr 1fr;
     }
+    .icon img {
+        width: 40px;
+    }
+    .avatar {
+        width: 250px;
+        top: 733px;
+    }
+    .avatar-content{
+        grid-template-columns: 2fr 1fr;
+    }
 }
+@media only screen and (max-width: 880px) {
+    .avatar-content{
+        margin-right: 7rem;
+    }
 
+
+}
 @media only screen and (max-width: 768px) {
     .container, header{
         padding: 0 2rem;
@@ -21,7 +37,9 @@
     .projetos-grid {
         grid-template-columns: 1fr 1fr;
     }
-    
+    .avatar-content{
+        display: none;
+    }
     #sobre ul{
         display: grid;
         grid-template-columns: 1fr 1fr;

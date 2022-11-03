@@ -61,6 +61,23 @@ nav ul li a:hover {
         -o-transition: all 0.3s ease;
         transition: all 0.3s ease;
 }
+.nav-link{
+    position: relative;
+    padding: .8rem 1rem;
+}
+.nav-link:hover::after {
+    width: calc(100% - 2rem);
+}
+.nav-link::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 1rem;
+    height: 0.18rem;
+    transition: 0.3s;
+    width: 0;
+    background: #5881FF;
+}
 nav img{
     max-width: auto;
     max-height: 90px;
@@ -189,11 +206,76 @@ h1{
 #sobre h4{
     margin: 0;
 }
+.sobre-text{
+    display: flex;
+}
+.avatar-content{
+    width: 180%;
+    transition: 3s;
+}
+.icon{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.icon img{
+    width: 60px; 
+    height:auto;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.377);
+    border-radius: 5px;
+    margin-bottom: 100px;
+    
+}
+.avatar{
+    width: 350px;
+    height: auto;
+    position: absolute;
+    top: 700px;
+    z-index: -1;
+    left: 4rem;
+}
+@keyframes flutp{
+    0%, 100%{
+        transform: translate(0,0);
+    }
+    50%{
+        transform: translate(25px, -40px);
+    }
+}
+@keyframes fluth{
+    0%, 100%{
+        transform: translate(0,0);
+    }
+    50%{
+        transform: translate(-15px, 20px);
+    }
+}
+@keyframes flutj{
+    0%, 100%{
+        transform: translate(0,0);
+    }
+    50%{
+        transform: translate(20px, -15px);
+    }
+}
+@keyframes flutc{
+    0%, 100%{
+        transform: translate(0,0);
+    }
+    50%{
+        transform: translate(-15px, -20px);
+    }
+}
+#sobre h1{
+    margin-bottom: 3rem;
+}
 #sobre p{
     font-size: 1.2em;
-    padding: 0 14%;
-    justify-content: center;
+    padding-right: 4rem;
     margin-bottom: 5rem;
+    text-align: initial;
+    line-height: 2rem;
     
 }
 #sobre ul{

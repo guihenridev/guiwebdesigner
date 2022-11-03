@@ -41,11 +41,11 @@
                 <img src="img/logo-web.png" alt="Guilherme Web Designer">
                 
                 <ul>
-                    <li><a href="#sobre">Sobre Mim</a></li>
-                    <li><a href="#projetos">Projetos</a></li>
-                    <li><a href="#servicos">Serviços</a></li>
-                    <li><a href="#skills">Minhas skills</a></li>
-                    <li><a href="#contato">Contato</a></li>
+                    <li><a class="nav-link" href="#sobre">Sobre Mim</a></li>
+                    <li><a class="nav-link" href="#projetos">Projetos</a></li>
+                    <li><a class="nav-link" href="#servicos">Serviços</a></li>
+                    <li><a class="nav-link" href="#skills">Minhas skills</a></li>
+                    <li><a class="nav-link" href="#contato">Contato</a></li>
                 </ul>
             </nav>
             <div id="menu-v" class="active">
@@ -79,13 +79,24 @@
     <section class="container">
         <section id="sobre">
             <h1 class="sobreReveal">Sobre Mim</h1>
-            <p class="sobreReveal">
-                Formado em Ciência da Computação e Sistemas de Informação, pela Universidade Carlos Drummond de Andrade, em 2019. Foi quando decidi mudar meu foco para desenvolvimento web. Em desenvolvimento web tenho conhecimento em Front-End: HTML, CSS, Bootstrap,
-                Javascript <br> <br> 
+            <div class="sobre-text">
+                <div class="avatar-content sobreReveal">
+                    <div class="icon">
+                        <img src="img/css.png" alt="CSS 3" style="animation: flutc 3s ease-in-out infinite;">
+                        <img src="img/html.png" alt="HTML 5" style="animation: fluth 4s ease-in-out infinite;">
+                        <img src="img/js.png" alt="JAVASCRIPT" style="animation: flutj 4s ease-in-out infinite;">
+                        <img src="img/photoshop.png" alt="PHOTOSHOP" style="animation: flutp 5s ease-in-out infinite;">
+                    </div>
+                    <img src="img/guiweb.webp" alt="Avatar" class="avatar">
+                </div>
+                <p class="sobreReveal">
+                    Formado em Ciência da Computação e Sistemas de Informação, pela Universidade Carlos Drummond de Andrade, em 2019. Foi quando decidi mudar meu foco para desenvolvimento web. Em desenvolvimento web tenho conhecimento em Front-End: HTML, CSS, Bootstrap,
+                    Javascript <br> <br> 
 
-                Atuo como designer gráfico e designer digital há mais de 7 anos como freelancer, com conhecimento em Adobe Photoshop, Adobe InDesign, marketing digital, técnicas
-                de SEO, UI Design e social media.
-            </p>
+                    Atuo como designer gráfico e designer digital há mais de 7 anos como freelancer, com conhecimento em Adobe Photoshop, Adobe InDesign, marketing digital, técnicas
+                    de SEO, UI Design e social media.
+                </p>
+            </div>
 
             <div>
                 <ul>
@@ -124,6 +135,7 @@
         </section>
         
         <section id="projetos">
+            <h1 class="titleReveal" style="text-align: center; margin-bottom: 3rem;">Portfólio</h1>
             <div class="frontend">
                 <h3 class="titleReveal">WebSites</h3>
                 <div class="projetos-grid intervalCardReveal" >
