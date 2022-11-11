@@ -1,0 +1,32 @@
+header{
+    margin-top: 5%;
+    margin-bottom: 0;
+}
+img{
+    max-width: auto;
+    max-height: 100px;
+}
+h3{
+    color: #828282;
+}
+header, section{
+    text-align: center;
+}
+section ul{
+    padding: 0;
+}
+section ul li{
+    list-style-type: none;
+}
+section button{
+    font-size: 1em;
+    width: 340px;
+    height: 41px;
+    margin-left: 0;
+    margin-bottom: 1em;
+}
+footer{
+    margin-top: 80px;
+    justify-content: center;
+    height: auto;
+}
